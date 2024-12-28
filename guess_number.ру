@@ -1,7 +1,7 @@
+"""Случайное число"""
 from random import randint
 
-
-number = randint(1,100)
+number = randint(1, 100)
 print('Угадай число от 1 до 100')
 
 while True:
@@ -17,4 +17,4 @@ while True:
     elif guess == number:
         break
 
-print('Отличная интуиция! Вы угадали число')                
+print('Отличная интуиция! Вы угадали число')
